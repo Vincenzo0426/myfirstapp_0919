@@ -22,7 +22,7 @@ void main() {
     home: Scaffold(
       appBar: appBar,
       body: appBody,
-    ),
+      backgroundColor: Colors.yellow),
   );
 
   runApp(app);
