@@ -4,7 +4,7 @@ void main() {
   // 建立appTitle和hiFlutter物件
   var appTitle = Text('我的第一個Flutter App'),
       hiFlutter = Text(' Hi, Flutter. \n 今天是20220928',
-        style: TextStyle(fontSize: 30),
+        style: TextStyle(fontSize: 30,color: Colors.red,decoration: TextDecoration.underline),
       );
 
   // 建立appBody物件
